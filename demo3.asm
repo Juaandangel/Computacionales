@@ -1,0 +1,15 @@
+@R0
+M=0
+
+(INICIO)
+@R0
+D=M
+@END
+D:JEQ 
+
+
+
+@INICIO
+D;JEQ 
+
+
