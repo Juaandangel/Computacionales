@@ -36,6 +36,14 @@ int main()
     {
          printf("Usted ha ingresado una linea");
     }
+    else if (Rec.Pt1.x == Rec.Pt1.y && Rec.Pt2.x != Rec.Pt2.y)
+    {
+         printf("Usted ha ingresado un REctángulo");
+    }
+    else if (Rec.Pt1.x != Rec.Pt2.x && Rec.Pt1.y != Rec.Pt2.y)
+    {
+         printf("Usted ha ingresado una Cuadrado");
+    }
 
  
     return 0;
